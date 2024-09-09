@@ -1,0 +1,3 @@
+at the firts we make make_classification and in the next setp we use dimenssion reduction on th dataset with fitting a logistic regression model, we use a Pipeline where the first setp perorms the PCA transform abd select 
+the 10 most important dimensions or componanas, and in the nest step we find the bets approach  to evaluate the same transform and model with diffrent numbers of input features and choose the number of features
+(amount of deimension reduction) that results in the best average performance, and in the next step we use PCA transform and logistic regression model combination as our final model for prediction.
